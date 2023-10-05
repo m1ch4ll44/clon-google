@@ -1,0 +1,54 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.icon-buscador{
+    /*
+    usamos display inline block porque queremos que estén pegaditos la parte de inline y block para que las propiedades de width y heigth sigan haciend efecto y hagn mi icono pequeño
+    */
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+}
+
+main {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header{
+    height: 5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 10px;
+}
+
+header ul li {
+    display: inline-block;
+    padding: 10px 16px 12px 0px;
+}
+
+footer ul li{
+    display: inline-block;
+    padding: 10px 16px 12px 0px;
+}
+
+footer{
+    height: 11vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+.sect{
+    display: flex;
+    justify-content: space-between;
+}
+
