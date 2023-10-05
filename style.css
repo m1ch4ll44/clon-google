@@ -12,6 +12,10 @@
     height: 24px;
 }
 
+ul {
+    list-style-type: none;
+}
+
 main {
     height: 80vh;
     display: flex;
@@ -51,4 +55,3 @@ footer{
     display: flex;
     justify-content: space-between;
 }
-
